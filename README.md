@@ -11,7 +11,7 @@ Most material copyright the original authors, see the git submodules "csl" and "
 Examples
 --------
 
-There is an [example markdown file][examples/example.md] in the examples folder.  The [Makefile][examples/Makefile] allows building pdfs, html or docx output from this markdown source. Type "make" a the command line to make all three outputs.
+There is an [example markdown file](examples/example.md) in the examples folder.  The [Makefile](examples/Makefile) allows building pdfs, html or docx output from this markdown source. Type "make" a the command line to make all three outputs.
 
 
 Using for your own writing
@@ -21,4 +21,3 @@ Using for your own writing
 - Copy the example/Makefile to your project directory containing your markdown document and modify the PREFIX variable in the Makefile to point to this cloned folder
 - Modify the BIB variable to point to your bibliography file
 - run 'make pdf' or 'make docx' or 'make html'
-
