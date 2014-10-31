@@ -1,3 +1,6 @@
 [submodule "templates"]
 	path = templates
 	url = git@github.com:dschwilk/pandoc-templates.git
+[submodule "csl"]
+	path = csl
+	url = git@github.com:dschwilk/csl-styles.git
