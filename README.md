@@ -17,7 +17,12 @@ There is an [example markdown file](examples/example.md) in the examples folder.
 Using for your own writing
 --------------------------
 
-- Clone this repository into something like ~/.pandoc or ~/write/pandoc-system
-- Copy the example/Makefile to your project directory containing your markdown document and modify the PREFIX variable in the Makefile to point to this cloned folder
-- Modify the BIB variable to point to your bibliography file
-- run 'make pdf' or 'make docx' or 'make html'
+1. Clone this repository and its submodules into something like ~/.pandoc or ~/write/pandoc-system.  For exmaple to clone into ~/write/pandoc with submodules use
+
+```bash
+git clone --recursive https://github.com/schwilklab/pandoc-build-system.git ~/write/pandoc
+```
+
+2. Copy the example/Makefile to your project directory containing your markdown document and modify the PREFIX variable in the Makefile to point to this cloned folder
+3. Modify the BIB variable to point to your bibliography file
+4. run 'make pdf' or 'make docx' or 'make html'
