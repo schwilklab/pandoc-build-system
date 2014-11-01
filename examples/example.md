@@ -1,6 +1,6 @@
 ---
 title: A Pandoc Markdown Article Example
-author:
+authors:
 - name: Dylan Schwilk
   affiliation: 1
   email: dylan.schwilk@ttu.edu
@@ -10,7 +10,7 @@ author:
 - name: Last Author
   affiliation: 1
   email: jane.doe@someunversity.example.com
-affiliation:
+affiliations:
     - id: 1
       address: Texas Tech University
     - id: 2
